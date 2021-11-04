@@ -134,7 +134,7 @@ main {
     max-width: 150px;
 }
 
-section {
+/* section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -150,7 +150,7 @@ section img {
 section h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
 .footer {
     padding: 30px;
@@ -161,4 +161,24 @@ section h2 {
 
 .footer h2 {
     font-size: 20px;
+}
+
+
+
+.solutions {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.solutions img {
+    max-height: 200px;
+}
+
+.solutions h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
