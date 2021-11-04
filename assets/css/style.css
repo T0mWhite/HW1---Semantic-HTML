@@ -97,7 +97,7 @@ aside {
 }
 
 /* Aside section formatting */
-.sidebar {
+.benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -108,7 +108,7 @@ h3 {
     text-align: center;
 }
 
-.sidebar img {
+aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
