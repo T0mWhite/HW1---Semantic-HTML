@@ -1,14 +1,15 @@
+/* Basic page formatting */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-
 body {
     background-color: #d9dcd6;
 }
 
+/* Header layout */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,15 +17,18 @@ header {
     color: #ffffff;
 }
 
+/* Header Horiseon logo  */
 span {
     color: #d9dcd6;
 }
+
 
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Header navigation links */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -47,6 +51,7 @@ a {
     text-decoration: none;
 }
 
+/* Div background photo of marketing meeting */
 div {
     height: 800px;
     width: 100%;
@@ -56,16 +61,19 @@ div {
     background-position: center;
 }
 
+/* Formatting for main to make room for aside */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+
 p {
     font-size: 16px;
 }
 
+/* Main section img floats */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -76,7 +84,7 @@ p {
     margin-left: 25px;
 }
 
-
+/* Aside formatting alongside main */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -88,6 +96,7 @@ aside {
     background-color: #2589bd;
 }
 
+/* Aside section formatting */
 .sidebar {
     margin-bottom: 32px;
     color: #ffffff;
@@ -123,6 +132,7 @@ h3 {
     font-size: 36px;
 }
 
+/* Footer formatting */
 footer {
     padding: 30px;
     clear: both;
